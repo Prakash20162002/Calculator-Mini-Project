@@ -1,0 +1,33 @@
+#head
+{
+    color:red;
+    size: 50px;
+    text-align: center;
+}
+.contanair
+{
+    text-align: center;
+    margin-top: 23px;
+}
+table{
+    margin: auto;
+}
+input{
+    font-size: 20px;
+    border-radius: 21px;
+}
+button
+{
+    font-size: 23px;
+    border-color: aqua;
+    width: 102px;
+    height: 58px;
+    border-radius: 20px;
+}
+.calculator
+{
+    display: inline block;
+}
+#screen{
+    font-size-adjust: 10px;
+}
