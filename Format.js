@@ -1,23 +1,19 @@
-let screen=document.getElementById('display');
+let screen = document.getElementById('display');
 
 
-function show(n)
-{
-    display.value+=n;
+function show(n) {
+    display.value += n;
 }
 
-function allclr()
-{
-    display.value="";
+function allclr() {
+    display.value = "";
 
 }
 
-function res()
-{
-    display.value=JSON.parse(display.value);
+function res() {
+    display.value = eval(display.value);
 }
 
-function del()
-{
-    display.value=display.value.slice(0,-1);
+function del() {
+    display.value = display.value.slice(0, -1);
 }
